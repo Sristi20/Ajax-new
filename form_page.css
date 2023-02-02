@@ -1,0 +1,408 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.firstmenu {
+  background-color: black;
+  width: 100%;
+  float: left;
+}
+.logo {
+  width: 200px;
+  float: left;
+}
+.ham {
+  width: 30%;
+  float: left;
+  height: 50px;
+}
+.amazonlogo {
+  height: 50px;
+  float: left;
+  width: 70%;
+}
+
+.searchbar {
+  width: calc(100% - 650px);
+  float: left;
+  height: 50px;
+  padding-top: 5px;
+}
+.allbutton {
+  float: left;
+  width: 43px;
+}
+.allbutton button {
+  padding: 5px;
+  padding-right: 15px;
+  font-size: 18px;
+  margin: 5px;
+  border: none;
+  outline: none;
+  margin-right: 0px;
+  border-radius: 5px;
+  background-color: rgb(211, 203, 203);
+}
+.searchtxt {
+  float: left;
+  width: calc(100% - 85px);
+}
+.searchtxt input {
+  margin: 5px;
+  height: 31px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.magnify {
+  margin-top: 5px;
+  float: left;
+}
+
+.account {
+  float: left;
+  height: 50px;
+  width: 450px;
+  overflow: hidden;
+}
+
+.account ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.account ul li {
+  float: left;
+}
+.account ul li a {
+  display: block;
+  color: darkgrey;
+  text-align: center;
+  padding: 5px;
+  padding-left: 17px;
+  text-decoration: none;
+  float: right;
+}
+
+.account span {
+  color: white;
+}
+
+.secondmenu {
+  background-color: rgb(58, 51, 51);
+  float: left;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.location {
+  width: 200px;
+  float: left;
+}
+
+.loc_pin {
+  width: auto;
+  float: left;
+  padding-top: 4px;
+  padding-left: 5px;
+}
+
+.city {
+  width: auto;
+  float: left;
+}
+
+.city a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 13px;
+}
+
+.city span {
+  color: white;
+  font-size: 15px;
+}
+
+.menu {
+  width: calc(100% - 660px);
+}
+.menu,
+.menu div {
+  float: left;
+  padding-top: 5px;
+}
+
+.menu div a {
+  text-decoration: none;
+  color: rgb(230, 217, 217);
+  font-size: 13px;
+  padding: 5px 4px;
+}
+
+.app {
+  float: left;
+  width: 460px;
+}
+
+.appicon {
+  width: auto;
+  float: left;
+  padding-top: 3px;
+  padding-left: 20px;
+  margin-left: 25px;
+}
+
+.mobile_app {
+  width: auto;
+  float: left;
+  padding: 8px 5px;
+}
+
+.mobile_app a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+/*FORM*/
+
+body {
+  float: left;
+}
+
+.address-form {
+  float: left;
+  width: 100%;
+}
+
+.center-container {
+  width: 500px;
+  margin: 0px auto !important;
+  
+}
+
+.navigation {
+  width: 100%;
+  float: left;
+  margin-bottom: 8px !important;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation ul li {
+  float: left;
+}
+.navigation ul li a {
+  display: block;
+  color: #565959;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  padding: 5px;
+  padding-left: 3px;
+  text-decoration: none;
+  float: left;
+}
+
+.navigation ul li a span {
+  color: #c45500 !important;
+}
+
+.input-form {
+  float: left;
+}
+
+.input-form h2 {
+  margin-bottom: 10px;
+}
+
+.self-service {
+  color: #007185;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.self-service a {
+  text-decoration: none;
+  color: rgb(4, 165, 214);
+  font-weight: 600;
+}
+
+.first-input {
+  width: 100%;
+  float: left;
+}
+
+.form {
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+}
+
+.form label {
+  font-size: 14px;
+  width: 100%;
+  line-height: 20px;
+  color: #0f1111;
+  float: left;
+  font-weight: bolder;
+}
+
+.form #country {
+  float: left;
+  width: 100%;
+  margin-bottom: 12px !important;
+  margin-top: 5px;
+  height: 31px;
+  border-radius: 7px;
+  border-color: #d5d9d9;
+  background-color: #f0f2f2;
+  padding-left: 11px;
+  box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+}
+
+.form #country option {
+  background-color: white;
+}
+
+.form #country:hover {
+  background-color: #d4d8d8;
+}
+
+.form #country:focus {
+  border: 1px solid #d4d8d8;
+  box-shadow: 2px 2px 4px rgba(2, 255, 255, 0.438);
+  background-color: rgba(212, 247, 247, 0.233);
+}
+
+.input-wrapper {
+  
+  float: left;
+  width: 100%;
+}
+
+.margin-top-5{
+  margin-top: 5px;
+}
+
+input {
+  border: 1px solid #888c8c;
+  height: 31px;
+  width: 100%;
+  margin-bottom: 12px !important;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgb(15 17 17 / 15%) inset;
+  outline: 0;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+input:focus {
+  box-shadow: 2px 2px 4px rgba(2, 255, 255, 0.438);
+  background-color: rgba(212, 247, 247, 0.233);
+}
+
+.input-wrapper #state {
+  width: 100%;
+  margin-bottom: 12px !important;
+  margin-top: 5px;
+  height: 31px;
+  border-radius: 7px;
+  border-color: #d5d9d9;
+  background-color: #f0f2f2;
+  padding-left: 11px;
+  box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+}
+
+.input-wrapper #state option {
+  background-color: white;
+}
+
+.input-wrapper #state:hover {
+  background-color: #d4d8d8;
+}
+
+.input-wrapper #state:focus {
+  border: 1px solid #d4d8d8;
+  box-shadow: 2px 2px 4px rgba(2, 255, 255, 0.438);
+  background-color: rgba(212, 247, 247, 0.233);
+}
+
+.input-wrapper .instruction {
+  margin-bottom: 12px !important;
+}
+
+.input-wrapper h3 {
+  font-size: 18px !important;
+  line-height: 24px !important;
+  font-weight: 700;
+}
+
+.input-wrapper .warning {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 12px !important;
+}
+
+.input-wrapper #type {
+  width: 100%;
+  margin-bottom: 12px !important;
+  margin-top: 5px;
+  height: 31px;
+  border-radius: 7px;
+  border-color: #d5d9d9;
+  background-color: #f0f2f2;
+  padding-left: 11px;
+  box-shadow: 0 2px 5px rgb(15 17 17 / 15%);
+}
+
+.input-wrapper #type option {
+  background-color: white;
+}
+
+.input-wrapper #type:hover {
+  background-color: #d4d8d8;
+}
+
+.input-wrapper #type:focus {
+  border: 1px solid #d4d8d8;
+  box-shadow: 2px 2px 4px rgba(2, 255, 255, 0.438);
+  background-color: rgba(212, 247, 247, 0.233);
+}
+
+.input-wrapper .add-button {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.input-wrapper .add-button button {
+  width: 20%;
+  cursor: pointer;
+  height: 33px;
+  background: #ffd814;
+  border: 1px solid #fcd200;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+  text-align: center;
+}
+
+.error-alert{
+  margin-bottom: 10px;
+  color: rgb(197, 4, 4);
+  font-size: 12px;
+  font-weight: 600;
+  display: none;
+}
